@@ -4,152 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Login Form</title>
-    <style>
-        /* Reset e Font */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
 
+    <style>
         body {
+            margin: 0;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #1a1e23; /* Sfondo scuro come nel post */
+            background: #f0f0f0;
         }
 
-        /* Contenitore Principale (La card viola) */
-        .main-card {
-            background-color: #9395f5;
-            width: 850px;
-            height: 500px;
-            border-radius: 15px;
-            display: flex;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-            position: relative;
-        }
-
-        /* Parte Sinistra: Immagine/Personaggio */
-        .illustration-side {
-            flex: 1;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            padding-bottom: 20px;
-        }
-
-        .illustration-side img {
-            max-width: 90%;
-            height: auto;
-        }
-
-        /* Parte Destra: Il Form */
-        .form-side {
-            flex: 1.2;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 0 50px;
-            color: white;
-            text-align: center;
-        }
-
-        .form-side h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-
-        .form-side p {
-            font-size: 14px;
-            margin-bottom: 30px;
-            opacity: 0.9;
-        }
-
-        /* Input Styles */
-        .input-group {
-            margin-bottom: 15px;
-            text-align: left;
-        }
-
-        .input-group label {
-            display: block;
-            font-size: 12px;
-            margin-bottom: 5px;
-        }
-
-        .input-group input {
-            width: 100%;
-            padding: 12px 15px;
-            border-radius: 8px;
-            border: none;
-            outline: none;
-            background: white;
-            color: #333;
-        }
-
-        /* Bottone */
-        .btn-next {
-            background-color: #6c63ff;
-            color: white;
-            border: none;
-            padding: 12px;
-            border-radius: 8px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background 0.3s;
-            margin-top: 10px;
-        }
-
-        .btn-next:hover {
-            background-color: #5750d8;
-        }
-
-        /* Link in basso */
-        .footer-link {
-            font-size: 10px;
-            margin-top: 20px;
-            opacity: 0.7;
-            text-decoration: none;
-            color: white;
+        div {
+            height: 200px;
         }
     </style>
 </head>
 <body>
 
-    <div class="main-card">
-        <div class="illustration-side">
-            <img src="https://cdni.iconscout.com/illustration/premium/thumb/female-character-sitting-on-podium-5136287-4284898.png" alt="Character">
-        </div>
-
-        <div class="form-side">
-            <h2>Register now</h2>
-            <p>Secure your spot in our upcoming live webinar</p>
-            
-            <form>
-                <div class="input-group">
-                    <label>What's your name? *</label>
-                    <input type="text" placeholder="Name" required>
-                </div>
-                
-                <div class="input-group">
-                    <input type="text" placeholder="Surname" required>
-                </div>
-
-                <div class="input-group">
-                    <label>Enter your email address *</label>
-                    <input type="email" placeholder="Ex. yourname@company.com" required>
-                </div>
-
-                <button type="submit" class="btn-next">Next</button>
-            </form>
-            
-            <a href="#" class="footer-link">Powered by YourBrand</a>
-        </div>
+    <div class="visme_d" 
+         data-title="Registration Form" 
+         data-url="x9m86gyq-webinar-registration-form?fullPage=true" 
+         data-domain="forms" 
+         data-full-page="true" 
+         data-min-height="100vh" 
+         data-form-id="161717">
     </div>
+
+    <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
 
 </body>
 </html>
